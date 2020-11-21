@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,147 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+body{
+  font-family: sans-serif;
 }
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 1000px;
+  top: 100px;
+}
+.img-al
+{
+  width:80%;
+  height:43%;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+
+}
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.p-font
+{
+  font-size: 18px;
+  font-weight: 400;
+}
+.btn-st
+{
+  background: none;
+  border: 1px solid white;
+  border-radius: 18px;
+  color: #fff;
+  padding: 10px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+}
+button:focus {
+  outline: none !important;
+}
+.col-pos
+{
+position: absolute !important;
+top: 47%;
+color: black;
+font-size: 10px;
+display: block;
+border: 1px solid #3333;
+width: 78% !important;
+margin-left: 11%;
+margin-top: -25px;
+}
+.p-size
+{
+font-size: 17px;
+}
+.txt-bx
+{
+border-top: none;
+border-left: none;
+border-right: none;
+width: 12%;
+border-bottom: 1px solid skyblue;
+color:#00a7be;
+font-weight: 700;
+background-color: aliceblue;
+}
+.txt-bx2
+{
+border-top: none;
+border-left: none;
+border-right: none;
+width: 12%;
+border-bottom: 1px solid lightgreen;
+color: lightgreen;
+font-weight: 700;
+background-color: aliceblue;
+
+}
+.txt-bx3
+{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 12%;
+  border-bottom: 1px solid lightgrey;
+  color: black;
+  font-weight: 700;
+  background-color: aliceblue;
+}
+input:focus
+{
+  outline:none !important;
+}
+.range-wrap {
+  position: relative;
+  margin: 0 auto 3rem;
+  width: 80% !important;
+  margin-top: 30px !important;
+  margin-left: 75px;
+  background-color: aliceblue;
+}
+.range {
+  width: 100%;
+}
+.bubble {
+  background: white;
+  color: black;
+  padding: 4px 12px;
+  position: absolute;
+  border-radius: 4px;
+  left: 50%;
+  font-weight: 700;
+  transform: translateX(-50%);
+}
+.ptag
+{
+  color: #555d;
+}
+.ptag.txt1
+{
+margin-top: -10px;
+}
+.cont-md
+{
+  padding: 30px;
+  text-align: center;
+}
+/*.bubble::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: red;
+  top: -1px;
+  left: 50%;
+}*/
+
